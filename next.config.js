@@ -1,7 +1,9 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
+  /* config options here */
   reactStrictMode: true,
-  // swcMinify: true, // ❌ deprecated in Next.js 15+
-};
-
-module.exports = nextConfig;
+}
+ 
+module.exports = nextConfig
