@@ -1,4 +1,4 @@
-import ThemeProvider from '@/app/providers/fluent-provider';
+import ThemeProvider from './providers/fluent-provider';
 import { ReactQueryProvider } from '@/app/providers/query-client-provider';
 import SpinnerProvider from '@/contexts/SpinnerContext';
 import type { Metadata } from 'next';
