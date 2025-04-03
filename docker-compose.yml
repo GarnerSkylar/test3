@@ -19,4 +19,4 @@ services:
       - NEXT_PUBLIC_BOX_CLIENT_SECRET="r4cQ1W8hhFJiTOdWZKIo97eHr64Wa705"
       - NEXT_PUBLIC_MY_CASE_CLIENT_ID="KYbW86AP4x4xKEbc"
       - NEXT_PUBLIC_MY_CASE_CLIENT_SECRET="vA6iD9diiWJBSugrsLfGTCDEQeZ62m76"
-    command: yarn start
+    command: yarn dev
