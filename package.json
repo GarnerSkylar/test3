@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "HOST=0.0.0.0 PORT=3000 next dev",
+    "dev": "cross-env HOST=0.0.0.0 PORT=3000 next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -81,6 +81,7 @@
     "@typescript-eslint/eslint-plugin": "^6.16.0",
     "@typescript-eslint/parser": "^6.16.0",
     "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.0.4",
     "eslint-config-prettier": "^9.1.0",
@@ -117,4 +118,3 @@
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
- 
